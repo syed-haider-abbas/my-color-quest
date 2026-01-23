@@ -8,7 +8,7 @@
     "viewBox": "0 0 100 100",
     "category": "early_learners",
     "objects": [
-      { "id": "sky", "name": "Sky", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#e0f2fe", "isAnimated": true },
+      { "id": "sky", "name": "Sky", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#e0f2fe", "isAnimated": true, "isUnfillable": true },
       { "id": "hill_back", "name": "Hill", "zIndex": 1, "d": "M0 70 Q 30 60 60 80 T 120 70 V 100 H 0 Z", "defaultColor": "white", "isAnimated": true },
       { "id": "hill_front", "name": "Hill Front", "zIndex": 2, "d": "M0 100 V 85 Q 40 65 100 90 V 100 H 0 Z", "defaultColor": "white", "isAnimated": true },
       { "id": "sun", "name": "Sun", "zIndex": 1, "d": "M85 15 m-10 0 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0", "defaultColor": "white", "isAnimated": true, "animationType": "spin", "loopAnimation": true },
@@ -68,7 +68,7 @@
     "viewBox": "0 0 100 100",
     "category": "early_learners",
     "objects": [
-      { "id": "bg", "name": "Wall", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#f1f5f9" },
+      { "id": "bg", "name": "Wall", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#f1f5f9", "isUnfillable": true },
       { "id": "head", "name": "Head", "zIndex": 3, "d": "M35 15 H 65 V 45 H 35 Z", "defaultColor": "white", "isAnimated": true, "animationType": "bounce" },
       { "id": "eye_l", "name": "Eye", "zIndex": 4, "d": "M40 25 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0", "defaultColor": "white" },
       { "id": "eye_r", "name": "Eye", "zIndex": 4, "d": "M55 25 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0", "defaultColor": "white" },

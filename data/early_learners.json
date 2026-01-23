@@ -68,7 +68,7 @@
     "viewBox": "0 0 100 100",
     "category": "early_learners",
     "objects": [
-      { "id": "bg", "name": "Wall", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#f1f5f9" },
+      { "id": "bg", "name": "Wall", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#f1f5f9", "isUnfillable": true },
       { "id": "head", "name": "Head", "zIndex": 3, "d": "M35 15 H 65 V 45 H 35 Z", "defaultColor": "white", "isAnimated": true, "animationType": "bounce" },
       { "id": "eye_l", "name": "Eye", "zIndex": 4, "d": "M40 25 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0", "defaultColor": "white" },
       { "id": "eye_r", "name": "Eye", "zIndex": 4, "d": "M55 25 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0", "defaultColor": "white" },
