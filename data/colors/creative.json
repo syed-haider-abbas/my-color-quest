@@ -1,0 +1,27 @@
+
+[
+  { "id": "sky_blue", "hex": "#87CEEB", "name": "Sky Blue" },
+  { "id": "ocean_teal", "hex": "#00897B", "name": "Ocean Teal" },
+  { "id": "leaf_green", "hex": "#689F38", "name": "Leaf Green" },
+  { "id": "forest_green", "hex": "#2E7D32", "name": "Forest Green" },
+  { "id": "sunny_yellow", "hex": "#FFEB3B", "name": "Sunny Yellow" },
+  { "id": "goldenrod", "hex": "#DAA520", "name": "Goldenrod" },
+  { "id": "sunset_orange", "hex": "#FF7043", "name": "Sunset Orange" },
+  { "id": "tomato_red", "hex": "#FF6347", "name": "Tomato Red" },
+  { "id": "berry_pink", "hex": "#C2185B", "name": "Berry Pink" },
+  { "id": "lavender_purple", "hex": "#CE93D8", "name": "Lavender Purple" },
+  { "id": "earth_brown", "hex": "#795548", "name": "Earth Brown" },
+  { "id": "sandy_beige", "hex": "#D7CCC8", "name": "Sandy Beige" },
+  { "id": "stone_grey", "hex": "#90A4AE", "name": "Stone Grey" },
+  { "id": "grass_green", "hex": "#76FF03", "name": "Grass Green" },
+  { "id": "aqua", "hex": "#00E5FF", "name": "Aqua" },
+  { "id": "coral", "hex": "#FF8A65", "name": "Coral" },
+  { "id": "plum", "hex": "#AB47BC", "name": "Plum" },
+  { "id": "olive", "hex": "#9E9D24", "name": "Olive" },
+  { "id": "deep_teal", "hex": "#006064", "name": "Deep Teal" },
+  { "id": "terracotta", "hex": "#D84315", "name": "Terracotta" },
+  { "id": "rose", "hex": "#F06292", "name": "Rose" },
+  { "id": "sky_grey", "hex": "#CFD8DC", "name": "Sky Grey" },
+  { "id": "mint_green", "hex": "#B9F6CA", "name": "Mint Green" },
+  { "id": "sunshine_gold", "hex": "#FFD600", "name": "Sunshine Gold" }
+]

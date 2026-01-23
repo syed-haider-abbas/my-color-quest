@@ -1,0 +1,35 @@
+
+[
+  { 
+    "id": "early_learners", 
+    "label": "Early Learners", 
+    "range": "Ages 4-6", 
+    "iconName": "Baby", 
+    "color": "bg-yellow-400", 
+    "desc": "Simple shapes & fun!" 
+  },
+  { 
+    "id": "creative_explorers", 
+    "label": "Creative Explorers", 
+    "range": "Ages 7-12", 
+    "iconName": "Rocket", 
+    "color": "bg-blue-400", 
+    "desc": "Adventures & themes." 
+  },
+  { 
+    "id": "aesthetic_creators", 
+    "label": "Aesthetic Creators", 
+    "range": "Ages 13-16", 
+    "iconName": "PenTool", 
+    "color": "bg-pink-400", 
+    "desc": "Style & expression." 
+  },
+  { 
+    "id": "mindful_artists", 
+    "label": "Mindful Artists", 
+    "range": "Ages 16+", 
+    "iconName": "Flower", 
+    "color": "bg-emerald-400", 
+    "desc": "Relax & focus." 
+  }
+]

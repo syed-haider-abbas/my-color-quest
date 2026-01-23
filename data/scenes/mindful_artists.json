@@ -1,0 +1,200 @@
+
+[
+  {
+    "id": "mandala",
+    "title": "Zen Garden",
+    "description": "Find your balance.",
+    "thumbnailColor": "bg-stone-100",
+    "viewBox": "0 0 100 100",
+    "category": "mindful_artists",
+    "objects": [
+      { "id": "bg", "name": "Background", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#fafaf9" },
+      { "id": "sand", "name": "Sand", "zIndex": 1, "d": "M10 10 H 90 V 90 H 10 Z", "defaultColor": "white" },
+      { "id": "rock1", "name": "Rock 1", "zIndex": 2, "d": "M25 30 a10 8 0 1 0 20 0 a10 8 0 1 0 -20 0", "defaultColor": "white" },
+      { "id": "rock2", "name": "Rock 2", "zIndex": 2, "d": "M60 70 a15 12 0 1 0 30 0 a15 12 0 1 0 -30 0", "defaultColor": "white" },
+      { "id": "rake_lines", "name": "Lines", "zIndex": 1, "d": "M15 15 H 85 M 15 25 H 85 M 15 85 H 85", "defaultColor": "white", "isAnimated": true, "animationType": "float" },
+      { "id": "lotus", "name": "Lotus", "zIndex": 3, "d": "M50 50 m-10 0 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0", "defaultColor": "white", "isAnimated": true, "animationType": "spin" }
+    ]
+  },
+  {
+    "id": "geometric_lion",
+    "title": "Geo Lion",
+    "description": "Roar in polygons.",
+    "thumbnailColor": "bg-yellow-100",
+    "viewBox": "0 0 100 100",
+    "category": "mindful_artists",
+    "objects": [
+      { "id": "bg", "name": "Background", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#fefce8" },
+      { "id": "mane_top", "name": "Mane", "zIndex": 1, "d": "M30 30 L 50 10 L 70 30 L 50 40 Z", "defaultColor": "white" },
+      { "id": "mane_l", "name": "Mane", "zIndex": 1, "d": "M10 50 L 30 30 L 35 50 L 20 70 Z", "defaultColor": "white" },
+      { "id": "mane_r", "name": "Mane", "zIndex": 1, "d": "M90 50 L 70 30 L 65 50 L 80 70 Z", "defaultColor": "white" },
+      { "id": "face", "name": "Face", "zIndex": 2, "d": "M35 50 H 65 L 50 80 Z", "defaultColor": "white" },
+      { "id": "nose", "name": "Nose", "zIndex": 3, "d": "M45 60 H 55 L 50 70 Z", "defaultColor": "white" },
+      { "id": "eye_l", "name": "Eye", "zIndex": 3, "d": "M40 55 L 45 52 L 45 58 Z", "defaultColor": "white", "isAnimated": true, "animationType": "pulse" },
+      { "id": "eye_r", "name": "Eye", "zIndex": 3, "d": "M60 55 L 55 52 L 55 58 Z", "defaultColor": "white", "isAnimated": true, "animationType": "pulse" }
+    ]
+  },
+  {
+    "id": "floral",
+    "title": "Bloom",
+    "description": "Intricate flowers.",
+    "thumbnailColor": "bg-green-50",
+    "viewBox": "0 0 100 100",
+    "category": "mindful_artists",
+    "objects": [
+      { "id": "bg", "name": "Garden", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#f0fdf4" },
+      { "id": "center", "name": "Pistil", "zIndex": 2, "d": "M50 50 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0", "defaultColor": "white", "isAnimated": true, "animationType": "spin" },
+      { "id": "petal1", "name": "Petal", "zIndex": 1, "d": "M60 50 Q 80 20 60 10 Q 40 20 60 50", "defaultColor": "white" },
+      { "id": "petal2", "name": "Petal", "zIndex": 1, "d": "M60 50 Q 90 60 90 50 Q 90 40 60 50", "defaultColor": "white" },
+      { "id": "petal3", "name": "Petal", "zIndex": 1, "d": "M60 50 Q 80 80 60 90 Q 40 80 60 50", "defaultColor": "white" },
+      { "id": "petal4", "name": "Petal", "zIndex": 1, "d": "M60 50 Q 30 60 10 50 Q 30 40 60 50", "defaultColor": "white" },
+      { "id": "leaf1", "name": "Leaf", "zIndex": 0, "d": "M20 80 Q 30 60 50 70", "defaultColor": "white", "isAnimated": true, "animationType": "wiggle" },
+      { "id": "leaf2", "name": "Leaf", "zIndex": 0, "d": "M80 80 Q 70 60 50 70", "defaultColor": "white", "isAnimated": true, "animationType": "wiggle" }
+    ]
+  },
+  {
+    "id": "paisley",
+    "title": "Paisley Pattern",
+    "description": "Flowing shapes.",
+    "thumbnailColor": "bg-teal-50",
+    "viewBox": "0 0 100 100",
+    "category": "mindful_artists",
+    "objects": [
+      { "id": "bg", "name": "Canvas", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#f0f9ff" },
+      { "id": "drop1", "name": "Drop", "zIndex": 1, "d": "M30 70 Q 10 50 30 30 Q 50 10 70 30 Q 80 40 60 50 Q 40 60 30 70", "defaultColor": "white" },
+      { "id": "inner1", "name": "Inner", "zIndex": 2, "d": "M35 65 Q 20 50 35 35 Q 45 25 55 35", "defaultColor": "white", "isAnimated": true, "animationType": "pulse" },
+      { "id": "circle1", "name": "Dot", "zIndex": 1, "d": "M80 80 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0", "defaultColor": "white" },
+      { "id": "circle2", "name": "Dot", "zIndex": 1, "d": "M10 20 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0", "defaultColor": "white" },
+      { "id": "swirl", "name": "Swirl", "zIndex": 1, "d": "M50 50 Q 70 70 90 50", "defaultColor": "white", "isAnimated": true, "animationType": "wiggle" }
+    ]
+  },
+  {
+    "id": "stained_glass",
+    "title": "Mosaic",
+    "description": "Color the shards.",
+    "thumbnailColor": "bg-gray-100",
+    "viewBox": "0 0 100 100",
+    "category": "mindful_artists",
+    "objects": [
+      { "id": "frame", "name": "Frame", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#1e293b" },
+      { "id": "p1", "name": "Shard", "zIndex": 1, "d": "M10 10 L 50 20 L 40 50 L 10 40 Z", "defaultColor": "white" },
+      { "id": "p2", "name": "Shard", "zIndex": 1, "d": "M50 20 L 90 10 L 80 50 L 40 50 Z", "defaultColor": "white" },
+      { "id": "p3", "name": "Shard", "zIndex": 1, "d": "M40 50 L 80 50 L 90 90 L 50 80 Z", "defaultColor": "white" },
+      { "id": "p4", "name": "Shard", "zIndex": 1, "d": "M10 40 L 40 50 L 50 80 L 10 90 Z", "defaultColor": "white" },
+      { "id": "center", "name": "Core", "zIndex": 2, "d": "M40 50 L 50 20 L 80 50 L 50 80 Z", "defaultColor": "white", "isAnimated": true, "animationType": "pulse" }
+    ]
+  },
+  {
+    "id": "dreamcatcher",
+    "title": "Sweet Dreams",
+    "description": "Catch the vibes.",
+    "thumbnailColor": "bg-purple-50",
+    "viewBox": "0 0 100 100",
+    "category": "mindful_artists",
+    "objects": [
+      { "id": "bg", "name": "Night", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#faf5ff" },
+      { "id": "hoop", "name": "Hoop", "zIndex": 1, "d": "M20 40 a30 30 0 1 0 60 0 a30 30 0 1 0 -60 0", "defaultColor": "white" }, 
+      { "id": "web", "name": "Web", "zIndex": 2, "d": "M50 40 L 50 20 M 50 40 L 70 40 M 50 40 L 50 60 M 50 40 L 30 40", "defaultColor": "white" },
+      { "id": "feather1", "name": "Feather", "zIndex": 1, "d": "M35 70 Q 30 90 35 100 Q 40 90 35 70", "defaultColor": "white", "isAnimated": true, "animationType": "wiggle" },
+      { "id": "feather2", "name": "Feather", "zIndex": 1, "d": "M50 70 Q 45 90 50 100 Q 55 90 50 70", "defaultColor": "white", "isAnimated": true, "animationType": "wiggle" },
+      { "id": "feather3", "name": "Feather", "zIndex": 1, "d": "M65 70 Q 60 90 65 100 Q 70 90 65 70", "defaultColor": "white", "isAnimated": true, "animationType": "wiggle" }
+    ]
+  },
+  {
+    "id": "koi",
+    "title": "Koi Pond",
+    "description": "Fish and ripples.",
+    "thumbnailColor": "bg-blue-50",
+    "viewBox": "0 0 100 100",
+    "category": "mindful_artists",
+    "objects": [
+      { "id": "water", "name": "Pond", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#eff6ff" },
+      { "id": "fish_body", "name": "Body", "zIndex": 2, "d": "M40 50 Q 50 30 60 50 Q 50 70 40 50 Z", "defaultColor": "white", "isAnimated": true, "animationType": "float" },
+      { "id": "tail", "name": "Tail", "zIndex": 2, "d": "M30 50 L 40 45 V 55 Z", "defaultColor": "white", "isAnimated": true, "animationType": "wiggle" },
+      { "id": "lilypad", "name": "Lily", "zIndex": 1, "d": "M70 70 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0", "defaultColor": "white" },
+      { "id": "ripple1", "name": "Ripple", "zIndex": 1, "d": "M50 50 a20 20 0 1 0 0 1 a20 20 0 0 0 0 -1", "defaultColor": "white", "isAnimated": true, "animationType": "pulse" },
+      { "id": "pebble", "name": "Stone", "zIndex": 1, "d": "M10 90 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0", "defaultColor": "white" }
+    ]
+  },
+  {
+    "id": "owl",
+    "title": "Wise Owl",
+    "description": "Detailed feathers.",
+    "thumbnailColor": "bg-stone-50",
+    "viewBox": "0 0 100 100",
+    "category": "mindful_artists",
+    "objects": [
+      { "id": "bg", "name": "Night", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#f5f5f4" },
+      { "id": "body", "name": "Body", "zIndex": 1, "d": "M30 90 Q 30 40 50 40 Q 70 40 70 90", "defaultColor": "white" },
+      { "id": "head", "name": "Head", "zIndex": 2, "d": "M35 40 Q 35 20 50 20 Q 65 20 65 40", "defaultColor": "white" },
+      { "id": "eye_l", "name": "Eye", "zIndex": 3, "d": "M40 30 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0", "defaultColor": "white", "isAnimated": true, "animationType": "spin" },
+      { "id": "eye_r", "name": "Eye", "zIndex": 3, "d": "M50 30 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0", "defaultColor": "white", "isAnimated": true, "animationType": "spin" },
+      { "id": "wing_l", "name": "Wing", "zIndex": 2, "d": "M30 50 Q 20 70 30 90", "defaultColor": "white" },
+      { "id": "wing_r", "name": "Wing", "zIndex": 2, "d": "M70 50 Q 80 70 70 90", "defaultColor": "white" },
+      { "id": "branch", "name": "Branch", "zIndex": 0, "d": "M0 90 H 100 V 100 H 0 Z", "defaultColor": "white" }
+    ]
+  },
+  {
+    "id": "waves",
+    "title": "Ocean Waves",
+    "description": "Flowing water.",
+    "thumbnailColor": "bg-cyan-50",
+    "viewBox": "0 0 100 100",
+    "category": "mindful_artists",
+    "objects": [
+      { "id": "bg", "name": "Sky", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#ecfeff" },
+      { "id": "wave1", "name": "Wave", "zIndex": 1, "d": "M0 50 Q 25 30 50 50 T 100 50 V 100 H 0 Z", "defaultColor": "white", "isAnimated": true, "animationType": "float" },
+      { "id": "wave2", "name": "Wave", "zIndex": 2, "d": "M0 70 Q 25 50 50 70 T 100 70 V 100 H 0 Z", "defaultColor": "white", "isAnimated": true, "animationType": "float" },
+      { "id": "wave3", "name": "Wave", "zIndex": 3, "d": "M0 90 Q 25 80 50 90 T 100 90 V 100 H 0 Z", "defaultColor": "white", "isAnimated": true, "animationType": "float" },
+      { "id": "sun", "name": "Sun", "zIndex": 0, "d": "M70 20 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0", "defaultColor": "white", "isAnimated": true, "animationType": "pulse" }
+    ]
+  },
+  {
+    "id": "crystals",
+    "title": "Crystals",
+    "description": "Geometric gems.",
+    "thumbnailColor": "bg-indigo-50",
+    "viewBox": "0 0 100 100",
+    "category": "mindful_artists",
+    "objects": [
+      { "id": "bg", "name": "Cave", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#eef2ff" },
+      { "id": "c1", "name": "Gem", "zIndex": 1, "d": "M20 80 L 25 40 L 35 30 L 45 40 L 40 80 Z", "defaultColor": "white" },
+      { "id": "c2", "name": "Gem", "zIndex": 2, "d": "M50 90 L 55 20 L 65 20 L 70 90 Z", "defaultColor": "white", "isAnimated": true, "animationType": "pulse" },
+      { "id": "c3", "name": "Gem", "zIndex": 1, "d": "M80 80 L 75 50 L 85 40 L 95 50 L 90 80 Z", "defaultColor": "white" },
+      { "id": "sparkle1", "name": "Sparkle", "zIndex": 3, "d": "M30 20 L 32 25 L 35 25 L 32 28 L 30 20 Z", "defaultColor": "white", "isAnimated": true, "animationType": "spin" },
+      { "id": "sparkle2", "name": "Sparkle", "zIndex": 3, "d": "M80 30 L 82 35 L 85 35 L 82 38 L 80 30 Z", "defaultColor": "white", "isAnimated": true, "animationType": "spin" }
+    ]
+  },
+  {
+    "id": "mountain",
+    "title": "Peaks",
+    "description": "Serene landscape.",
+    "thumbnailColor": "bg-gray-50",
+    "viewBox": "0 0 100 100",
+    "category": "mindful_artists",
+    "objects": [
+      { "id": "bg", "name": "Sky", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#f8fafc" },
+      { "id": "m1", "name": "Mountain", "zIndex": 1, "d": "M0 100 L 30 40 L 60 100 Z", "defaultColor": "white" },
+      { "id": "m2", "name": "Mountain", "zIndex": 1, "d": "M40 100 L 70 30 L 100 100 Z", "defaultColor": "white" },
+      { "id": "snow1", "name": "Snow", "zIndex": 2, "d": "M30 40 L 35 50 L 25 50 Z", "defaultColor": "white" },
+      { "id": "snow2", "name": "Snow", "zIndex": 2, "d": "M70 30 L 75 40 L 65 40 Z", "defaultColor": "white" },
+      { "id": "sun", "name": "Sun", "zIndex": 0, "d": "M50 20 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0", "defaultColor": "white", "isAnimated": true, "animationType": "float" }
+    ]
+  },
+  {
+    "id": "origami",
+    "title": "Paper Crane",
+    "description": "Folded art.",
+    "thumbnailColor": "bg-red-50",
+    "viewBox": "0 0 100 100",
+    "category": "mindful_artists",
+    "objects": [
+      { "id": "bg", "name": "Table", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#fef2f2" },
+      { "id": "wing_l", "name": "Wing", "zIndex": 1, "d": "M50 50 L 10 30 L 40 60 Z", "defaultColor": "white" },
+      { "id": "wing_r", "name": "Wing", "zIndex": 1, "d": "M50 50 L 90 30 L 60 60 Z", "defaultColor": "white" },
+      { "id": "body", "name": "Body", "zIndex": 2, "d": "M40 60 L 60 60 L 50 80 Z", "defaultColor": "white", "isAnimated": true, "animationType": "float" },
+      { "id": "head", "name": "Head", "zIndex": 2, "d": "M50 50 L 50 30 L 60 40 Z", "defaultColor": "white" },
+      { "id": "tail", "name": "Tail", "zIndex": 1, "d": "M50 80 L 40 90 L 60 90 Z", "defaultColor": "white" }
+    ]
+  }
+]

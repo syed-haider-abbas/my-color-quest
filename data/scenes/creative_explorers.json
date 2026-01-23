@@ -1,0 +1,203 @@
+
+[
+  {
+    "id": "space",
+    "title": "Space Explorer",
+    "description": "Blast off into the stars!",
+    "thumbnailColor": "bg-indigo-100",
+    "viewBox": "0 0 100 100",
+    "category": "creative_explorers",
+    "objects": [
+      { "id": "space_bg", "name": "Space", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#1e1b4b" },
+      { "id": "planet", "name": "Planet", "zIndex": 1, "d": "M70 80 m-20 0 a20 20 0 1 0 40 0 a20 20 0 1 0 -40 0", "defaultColor": "white" },
+      { "id": "ring", "name": "Ring", "zIndex": 2, "d": "M50 80 Q 70 65 90 80 Q 70 95 50 80", "defaultColor": "white" },
+      { "id": "rocket_body", "name": "Rocket", "zIndex": 3, "d": "M40 60 Q 50 20 60 60 H 40 Z", "defaultColor": "white", "isAnimated": true, "animationType": "float" },
+      { "id": "rocket_window", "name": "Window", "zIndex": 4, "d": "M50 45 m-3 0 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0", "defaultColor": "white" },
+      { "id": "rocket_fins", "name": "Fins", "zIndex": 2, "d": "M40 60 L 35 70 H 65 L 60 60", "defaultColor": "white" },
+      { "id": "star1", "name": "Star", "zIndex": 1, "d": "M20 20 L22 25 L27 25 L23 28 L25 33 L20 30 L15 33 L17 28 L13 25 L18 25 Z", "defaultColor": "white", "isAnimated": true, "animationType": "pulse" }
+    ]
+  },
+  {
+    "id": "underwater",
+    "title": "Ocean Friends",
+    "description": "Dive deep with fish.",
+    "thumbnailColor": "bg-cyan-100",
+    "viewBox": "0 0 100 100",
+    "category": "creative_explorers",
+    "objects": [
+      { "id": "water_bg", "name": "Water", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#ecfeff" },
+      { "id": "sand", "name": "Sand", "zIndex": 1, "d": "M0 80 Q 50 70 100 80 V 100 H 0 Z", "defaultColor": "white" },
+      { "id": "fish_body", "name": "Fish", "zIndex": 2, "d": "M30 50 Q 50 30 70 50 Q 50 70 30 50 Z", "defaultColor": "white", "isAnimated": true, "animationType": "float" },
+      { "id": "fish_tail", "name": "Tail", "zIndex": 1, "d": "M70 50 L 80 40 V 60 Z", "defaultColor": "white" },
+      { "id": "fish_eye", "name": "Eye", "zIndex": 3, "d": "M40 45 m-2 0 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0", "defaultColor": "white" },
+      { "id": "seaweed1", "name": "Seaweed", "zIndex": 2, "d": "M10 100 Q 15 80 10 60 Q 5 40 10 20", "defaultColor": "white", "isAnimated": true, "animationType": "wiggle" },
+      { "id": "bubble1", "name": "Bubble", "zIndex": 4, "d": "M30 30 m-2 0 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0", "defaultColor": "white" }
+    ]
+  },
+  {
+    "id": "jungle",
+    "title": "Jungle Party",
+    "description": "Swing with the monkeys!",
+    "thumbnailColor": "bg-emerald-100",
+    "viewBox": "0 0 100 100",
+    "category": "creative_explorers",
+    "objects": [
+      { "id": "sky", "name": "Sky", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#f0fdf4" },
+      { "id": "ground", "name": "Ground", "zIndex": 1, "d": "M0 80 Q 50 75 100 80 V 100 H 0 Z", "defaultColor": "white" },
+      { "id": "vine", "name": "Vine", "zIndex": 2, "d": "M0 0 Q 30 40 60 10 T 100 0", "defaultColor": "white" },
+      { "id": "monkey_head", "name": "Monkey Head", "zIndex": 3, "d": "M40 40 a15 15 0 1 0 30 0 a15 15 0 1 0 -30 0", "defaultColor": "white", "isAnimated": true, "animationType": "bounce" },
+      { "id": "monkey_ear_l", "name": "Ear L", "zIndex": 2, "d": "M35 40 a5 5 0 1 0 10 0", "defaultColor": "white" },
+      { "id": "monkey_ear_r", "name": "Ear R", "zIndex": 2, "d": "M65 40 a5 5 0 1 0 10 0", "defaultColor": "white" },
+      { "id": "leaf_1", "name": "Leaf", "zIndex": 4, "d": "M80 80 Q 90 60 100 80", "defaultColor": "white", "isAnimated": true, "animationType": "wiggle" }
+    ]
+  },
+  {
+    "id": "city",
+    "title": "Beep Beep City",
+    "description": "Cars and tall buildings.",
+    "thumbnailColor": "bg-gray-100",
+    "viewBox": "0 0 100 100",
+    "category": "creative_explorers",
+    "objects": [
+      { "id": "sky", "name": "Sky", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#e0f2fe" },
+      { "id": "road", "name": "Road", "zIndex": 1, "d": "M0 80 H100 V100 H0 Z", "defaultColor": "white" },
+      { "id": "building_1", "name": "Skyscraper", "zIndex": 2, "d": "M10 80 V 20 H 30 V 80 Z", "defaultColor": "white" },
+      { "id": "building_2", "name": "Tower", "zIndex": 2, "d": "M35 80 V 40 H 60 V 80 Z", "defaultColor": "white" },
+      { "id": "car_body", "name": "Car", "zIndex": 3, "d": "M60 85 H 90 V 75 H 80 V 70 H 70 V 75 H 60 Z", "defaultColor": "white", "isAnimated": true, "animationType": "float" },
+      { "id": "wheel_1", "name": "Wheel", "zIndex": 4, "d": "M65 85 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0", "defaultColor": "white", "isAnimated": true, "animationType": "spin" },
+      { "id": "wheel_2", "name": "Wheel", "zIndex": 4, "d": "M85 85 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0", "defaultColor": "white", "isAnimated": true, "animationType": "spin" }
+    ]
+  },
+  {
+    "id": "fantasy",
+    "title": "Dragon Castle",
+    "description": "A magical kingdom.",
+    "thumbnailColor": "bg-pink-100",
+    "viewBox": "0 0 100 100",
+    "category": "creative_explorers",
+    "objects": [
+      { "id": "sky", "name": "Sky", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#fce7f3" },
+      { "id": "castle_main", "name": "Castle", "zIndex": 2, "d": "M30 80 V 50 H 70 V 80 H 60 V 70 H 40 V 80 Z", "defaultColor": "white" },
+      { "id": "tower_l", "name": "Tower L", "zIndex": 2, "d": "M20 80 V 40 H 30 V 80 Z", "defaultColor": "white" },
+      { "id": "tower_r", "name": "Tower R", "zIndex": 2, "d": "M70 80 V 40 H 80 V 80 Z", "defaultColor": "white" },
+      { "id": "roof_l", "name": "Roof", "zIndex": 3, "d": "M15 40 L 25 20 L 35 40 Z", "defaultColor": "white" },
+      { "id": "dragon", "name": "Dragon", "zIndex": 4, "d": "M70 30 Q 80 10 90 30 T 95 50 L 85 55 Z", "defaultColor": "white", "isAnimated": true, "animationType": "float" },
+      { "id": "sun", "name": "Sun", "zIndex": 1, "d": "M10 10 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0", "defaultColor": "white", "isAnimated": true, "animationType": "pulse" }
+    ]
+  },
+  {
+    "id": "pirate",
+    "title": "Pirate Island",
+    "description": "Search for hidden treasure.",
+    "thumbnailColor": "bg-teal-100",
+    "viewBox": "0 0 100 100",
+    "category": "creative_explorers",
+    "objects": [
+      { "id": "sky", "name": "Sky", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#ccfbf1" },
+      { "id": "water", "name": "Water", "zIndex": 1, "d": "M0 70 H 100 V 100 H 0 Z", "defaultColor": "white" },
+      { "id": "island", "name": "Island", "zIndex": 2, "d": "M20 70 Q 50 50 80 70 Z", "defaultColor": "white" },
+      { "id": "chest", "name": "Chest", "zIndex": 3, "d": "M45 65 H 55 V 60 H 45 Z", "defaultColor": "white" },
+      { "id": "flag_pole", "name": "Pole", "zIndex": 3, "d": "M50 60 V 40 H 51 V 60 Z", "defaultColor": "white" },
+      { "id": "flag", "name": "Flag", "zIndex": 4, "d": "M51 40 H 65 L 51 50 Z", "defaultColor": "white", "isAnimated": true, "animationType": "wiggle" },
+      { "id": "ship", "name": "Ship", "zIndex": 2, "d": "M10 80 H 30 L 25 90 H 15 Z", "defaultColor": "white", "isAnimated": true, "animationType": "float" }
+    ]
+  },
+  {
+    "id": "winter",
+    "title": "Winter Wonderland",
+    "description": "Brrr! It is cold outside.",
+    "thumbnailColor": "bg-blue-50",
+    "viewBox": "0 0 100 100",
+    "category": "creative_explorers",
+    "objects": [
+      { "id": "sky", "name": "Sky", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#dbeafe" },
+      { "id": "snow", "name": "Snow", "zIndex": 1, "d": "M0 70 Q 50 60 100 70 V 100 H 0 Z", "defaultColor": "white" },
+      { "id": "snowman_bottom", "name": "Body", "zIndex": 2, "d": "M30 90 a15 15 0 1 0 30 0 a15 15 0 1 0 -30 0", "defaultColor": "white" },
+      { "id": "snowman_top", "name": "Head", "zIndex": 3, "d": "M35 70 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0", "defaultColor": "white", "isAnimated": true, "animationType": "bounce" },
+      { "id": "tree", "name": "Pine", "zIndex": 2, "d": "M80 90 L 70 60 H 90 Z", "defaultColor": "white" },
+      { "id": "flake1", "name": "Snowflake", "zIndex": 4, "d": "M10 20 L 14 24 M 14 20 L 10 24", "defaultColor": "white", "isAnimated": true, "animationType": "spin" },
+      { "id": "flake2", "name": "Snowflake", "zIndex": 4, "d": "M90 30 L 94 34 M 94 30 L 90 34", "defaultColor": "white", "isAnimated": true, "animationType": "spin" }
+    ]
+  },
+  {
+    "id": "dessert",
+    "title": "Candy Land",
+    "description": "Yummy sweets and treats.",
+    "thumbnailColor": "bg-purple-100",
+    "viewBox": "0 0 100 100",
+    "category": "creative_explorers",
+    "objects": [
+      { "id": "bg", "name": "Background", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#f3e8ff" },
+      { "id": "ground", "name": "Ground", "zIndex": 1, "d": "M0 80 Q 25 70 50 80 Q 75 90 100 80 V 100 H 0 Z", "defaultColor": "white" },
+      { "id": "cupcake_cup", "name": "Cup", "zIndex": 2, "d": "M20 80 L 25 60 H 45 L 50 80 Z", "defaultColor": "white" },
+      { "id": "cupcake_top", "name": "Frosting", "zIndex": 3, "d": "M25 60 Q 35 40 45 60 Z", "defaultColor": "white", "isAnimated": true, "animationType": "bounce" },
+      { "id": "lollipop_stick", "name": "Stick", "zIndex": 2, "d": "M70 90 V 50 H 72 V 90 Z", "defaultColor": "white" },
+      { "id": "lollipop_candy", "name": "Candy", "zIndex": 3, "d": "M60 50 a12 12 0 1 0 24 0 a12 12 0 1 0 -24 0", "defaultColor": "white", "isAnimated": true, "animationType": "spin" }
+    ]
+  },
+  {
+    "id": "camping",
+    "title": "Camping Trip",
+    "description": "Under the stars.",
+    "thumbnailColor": "bg-indigo-900",
+    "viewBox": "0 0 100 100",
+    "category": "creative_explorers",
+    "objects": [
+      { "id": "bg", "name": "Night", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#1e1b4b" },
+      { "id": "ground", "name": "Ground", "zIndex": 1, "d": "M0 70 H 100 V 100 H 0 Z", "defaultColor": "white" },
+      { "id": "tent", "name": "Tent", "zIndex": 2, "d": "M20 90 L 50 30 L 80 90 Z", "defaultColor": "white" },
+      { "id": "moon", "name": "Moon", "zIndex": 1, "d": "M80 20 a10 10 0 1 0 0 20 a10 10 0 0 0 0 -20", "defaultColor": "white", "isAnimated": true, "animationType": "float" },
+      { "id": "wood", "name": "Wood", "zIndex": 2, "d": "M40 90 L 60 90", "defaultColor": "white" },
+      { "id": "fire", "name": "Fire", "zIndex": 3, "d": "M45 90 Q 50 70 55 90 Q 50 50 45 90", "defaultColor": "white", "isAnimated": true, "animationType": "pulse" },
+      { "id": "tree", "name": "Tree", "zIndex": 1, "d": "M10 70 L 5 90 H 15 L 10 70", "defaultColor": "white" }
+    ]
+  },
+  {
+    "id": "sports",
+    "title": "Game Time",
+    "description": "Ready to play!",
+    "thumbnailColor": "bg-blue-100",
+    "viewBox": "0 0 100 100",
+    "category": "creative_explorers",
+    "objects": [
+      { "id": "bg", "name": "Field", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#dbeafe" },
+      { "id": "goal", "name": "Goal", "zIndex": 1, "d": "M10 80 V 40 H 90 V 80", "defaultColor": "white" },
+      { "id": "net", "name": "Net", "zIndex": 0, "d": "M15 45 H 85 V 80 H 15 Z", "defaultColor": "white" },
+      { "id": "ball", "name": "Soccer Ball", "zIndex": 2, "d": "M50 70 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0", "defaultColor": "white", "isAnimated": true, "animationType": "spin" },
+      { "id": "bat", "name": "Bat", "zIndex": 2, "d": "M20 90 L 30 70 L 35 75 L 25 95 Z", "defaultColor": "white" },
+      { "id": "trophy", "name": "Trophy", "zIndex": 2, "d": "M75 90 V 85 H 85 V 90 M 75 85 L 70 75 H 90 L 85 85", "defaultColor": "white", "isAnimated": true, "animationType": "bounce" }
+    ]
+  },
+  {
+    "id": "science",
+    "title": "Mad Science",
+    "description": "Experiments and potions.",
+    "thumbnailColor": "bg-emerald-50",
+    "viewBox": "0 0 100 100",
+    "category": "creative_explorers",
+    "objects": [
+      { "id": "bg", "name": "Lab", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#ecfdf5" },
+      { "id": "table", "name": "Table", "zIndex": 1, "d": "M0 80 H 100 V 100 H 0 Z", "defaultColor": "white" },
+      { "id": "flask", "name": "Flask", "zIndex": 2, "d": "M40 80 L 45 50 H 55 L 60 80 Z", "defaultColor": "white" },
+      { "id": "liquid", "name": "Potion", "zIndex": 3, "d": "M42 75 L 43 60 H 57 L 58 75 Z", "defaultColor": "white", "isAnimated": true, "animationType": "wiggle" },
+      { "id": "bubbles", "name": "Bubbles", "zIndex": 4, "d": "M50 45 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0 M 48 40 a3 3 0 1 0 6 0", "defaultColor": "white", "isAnimated": true, "animationType": "float" },
+      { "id": "atom_center", "name": "Atom", "zIndex": 2, "d": "M80 30 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0", "defaultColor": "white", "isAnimated": true, "animationType": "spin" },
+      { "id": "orbit", "name": "Orbit", "zIndex": 2, "d": "M70 30 a15 5 0 1 0 30 0 a15 5 0 1 0 -30 0", "defaultColor": "white" }
+    ]
+  },
+  {
+    "id": "music",
+    "title": "Rock Star",
+    "description": "Feel the beat.",
+    "thumbnailColor": "bg-red-50",
+    "viewBox": "0 0 100 100",
+    "category": "creative_explorers",
+    "objects": [
+      { "id": "bg", "name": "Stage", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#fef2f2" },
+      { "id": "guitar_body", "name": "Guitar", "zIndex": 2, "d": "M30 60 Q 20 40 40 40 Q 50 50 40 60 Q 60 70 50 90 Q 20 90 30 60 Z", "defaultColor": "white", "isAnimated": true, "animationType": "bounce" },
+      { "id": "neck", "name": "Neck", "zIndex": 2, "d": "M40 40 L 50 10 H 55 L 45 40 Z", "defaultColor": "white" },
+      { "id": "note1", "name": "Note", "zIndex": 3, "d": "M70 30 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0 M 80 30 V 10 H 90 V 20", "defaultColor": "white", "isAnimated": true, "animationType": "float" },
+      { "id": "note2", "name": "Note", "zIndex": 3, "d": "M10 20 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0 M 16 20 V 5 H 20", "defaultColor": "white", "isAnimated": true, "animationType": "float" }
+    ]
+  }
+]

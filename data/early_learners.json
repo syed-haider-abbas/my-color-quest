@@ -1,0 +1,236 @@
+
+[
+  {
+    "id": "nature",
+    "title": "Sunny Meadows",
+    "description": "A beautiful sunny day.",
+    "thumbnailColor": "bg-green-100",
+    "viewBox": "0 0 100 100",
+    "category": "early_learners",
+    "objects": [
+      { "id": "sky", "name": "Sky", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#e0f2fe", "isAnimated": true },
+      { "id": "hill_back", "name": "Hill", "zIndex": 1, "d": "M0 70 Q 30 60 60 80 T 120 70 V 100 H 0 Z", "defaultColor": "white", "isAnimated": true },
+      { "id": "hill_front", "name": "Hill Front", "zIndex": 2, "d": "M0 100 V 85 Q 40 65 100 90 V 100 H 0 Z", "defaultColor": "white", "isAnimated": true },
+      { "id": "sun", "name": "Sun", "zIndex": 1, "d": "M85 15 m-10 0 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0", "defaultColor": "white", "isAnimated": true, "animationType": "spin", "loopAnimation": true },
+      { "id": "sun_ray_1", "name": "Ray", "zIndex": 1, "d": "M85 2 L85 0", "defaultColor": "white", "isAnimated": true },
+      { 
+        "id": "tree_group", 
+        "name": "Tree", 
+        "zIndex": 3, 
+        "d": "",
+        "isAnimated": true, 
+        "animationType": "wiggle",
+        "children": [
+           { "id": "tree_trunk", "name": "Trunk", "zIndex": 1, "d": "M20 70 L20 90 L26 90 L26 70 Z", "defaultColor": "white" },
+           { "id": "tree_leaves", "name": "Leaves", "zIndex": 2, "d": "M23 45 L10 70 H36 Z M23 55 L15 70 H31 Z", "defaultColor": "white", "isAnimated": true }
+        ]
+      },
+      { "id": "flower_petals", "name": "Flower", "zIndex": 5, "d": "M50 80 m-3 0 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0", "defaultColor": "white", "isAnimated": true, "animationType": "pulse" }
+    ]
+  },
+  {
+    "id": "farm",
+    "title": "Barnyard Fun",
+    "description": "Animals on the farm.",
+    "thumbnailColor": "bg-yellow-100",
+    "viewBox": "0 0 100 100",
+    "category": "early_learners",
+    "objects": [
+      { "id": "sky", "name": "Sky", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#e0f2fe" },
+      { "id": "grass", "name": "Grass", "zIndex": 1, "d": "M0 60 H100 V100 H0 Z", "defaultColor": "white" },
+      { "id": "barn_body", "name": "Barn", "zIndex": 2, "d": "M20 90 V 50 H 60 V 90 Z", "defaultColor": "white" },
+      { "id": "barn_roof", "name": "Roof", "zIndex": 3, "d": "M15 50 L 40 30 L 65 50 Z", "defaultColor": "white" },
+      { "id": "silo", "name": "Silo", "zIndex": 2, "d": "M65 90 V 40 H 75 V 90 Z", "defaultColor": "white" },
+      { "id": "cloud", "name": "Cloud", "zIndex": 2, "d": "M70 20 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0", "defaultColor": "white", "isAnimated": true, "animationType": "float" }
+    ]
+  },
+  {
+    "id": "dino",
+    "title": "Dino World",
+    "description": "Roar with the dinosaurs!",
+    "thumbnailColor": "bg-orange-100",
+    "viewBox": "0 0 100 100",
+    "category": "early_learners",
+    "objects": [
+      { "id": "sky", "name": "Sky", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#fff7ed" },
+      { "id": "ground", "name": "Ground", "zIndex": 1, "d": "M0 80 L 100 70 V 100 H 0 Z", "defaultColor": "white" },
+      { "id": "volcano", "name": "Volcano", "zIndex": 2, "d": "M20 80 L 40 40 L 60 75 Z", "defaultColor": "white" },
+      { "id": "smoke", "name": "Smoke", "zIndex": 1, "d": "M40 40 Q 45 20 40 10", "defaultColor": "white", "isAnimated": true, "animationType": "float" },
+      { "id": "dino_body", "name": "Dino", "zIndex": 3, "d": "M60 60 Q 50 40 80 40 Q 90 50 80 80 L 70 80 L 70 60 Z", "defaultColor": "white", "isAnimated": true, "animationType": "bounce" },
+      { "id": "egg", "name": "Egg", "zIndex": 3, "d": "M10 90 a5 7 0 1 0 10 0 a5 7 0 1 0 -10 0", "defaultColor": "white" }
+    ]
+  },
+  {
+    "id": "robot",
+    "title": "Robot Workshop",
+    "description": "Build your own bot.",
+    "thumbnailColor": "bg-slate-200",
+    "viewBox": "0 0 100 100",
+    "category": "early_learners",
+    "objects": [
+      { "id": "bg", "name": "Wall", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#f1f5f9" },
+      { "id": "head", "name": "Head", "zIndex": 3, "d": "M35 15 H 65 V 45 H 35 Z", "defaultColor": "white", "isAnimated": true, "animationType": "bounce" },
+      { "id": "eye_l", "name": "Eye", "zIndex": 4, "d": "M40 25 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0", "defaultColor": "white" },
+      { "id": "eye_r", "name": "Eye", "zIndex": 4, "d": "M55 25 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0", "defaultColor": "white" },
+      { "id": "body", "name": "Body", "zIndex": 2, "d": "M30 45 H 70 V 85 H 30 Z", "defaultColor": "white" },
+      { "id": "gear", "name": "Gear", "zIndex": 3, "d": "M10 10 m-5 0 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0", "defaultColor": "white", "isAnimated": true, "animationType": "spin" },
+      { "id": "antenna", "name": "Antenna", "zIndex": 2, "d": "M50 15 V 5", "defaultColor": "white" }
+    ]
+  },
+  {
+    "id": "pets",
+    "title": "Playful Pets",
+    "description": "Cute puppy and kitten.",
+    "thumbnailColor": "bg-orange-50",
+    "viewBox": "0 0 100 100",
+    "category": "early_learners",
+    "objects": [
+      { "id": "bg", "name": "Floor", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#fff7ed" },
+      { "id": "rug", "name": "Rug", "zIndex": 1, "d": "M10 80 a40 15 0 1 0 80 0 a40 15 0 1 0 -80 0", "defaultColor": "white" },
+      { "id": "dog_head", "name": "Dog", "zIndex": 3, "d": "M30 40 a15 15 0 1 0 30 0 a15 15 0 1 0 -30 0", "defaultColor": "white", "isAnimated": true, "animationType": "bounce" },
+      { "id": "dog_ear_l", "name": "Ear", "zIndex": 4, "d": "M30 40 L 20 50 L 32 45 Z", "defaultColor": "white" },
+      { "id": "dog_ear_r", "name": "Ear", "zIndex": 4, "d": "M60 40 L 70 50 L 58 45 Z", "defaultColor": "white" },
+      { "id": "cat_head", "name": "Cat", "zIndex": 3, "d": "M70 60 a12 12 0 1 0 24 0 a12 12 0 1 0 -24 0", "defaultColor": "white", "isAnimated": true, "animationType": "float" },
+      { "id": "cat_ear_l", "name": "Ear", "zIndex": 4, "d": "M72 50 L 70 40 L 80 48 Z", "defaultColor": "white" },
+      { "id": "cat_ear_r", "name": "Ear", "zIndex": 4, "d": "M88 50 L 90 40 L 80 48 Z", "defaultColor": "white" }
+    ]
+  },
+  {
+    "id": "fruit",
+    "title": "Yummy Fruit",
+    "description": "Healthy snacks.",
+    "thumbnailColor": "bg-red-50",
+    "viewBox": "0 0 100 100",
+    "category": "early_learners",
+    "objects": [
+      { "id": "bg", "name": "Table", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#fef2f2" },
+      { "id": "bowl", "name": "Bowl", "zIndex": 2, "d": "M20 70 Q 50 90 80 70 L 75 90 H 25 Z", "defaultColor": "white" },
+      { "id": "apple", "name": "Apple", "zIndex": 3, "d": "M30 60 a15 15 0 1 0 30 0 a15 15 0 1 0 -30 0", "defaultColor": "white", "isAnimated": true, "animationType": "bounce" },
+      { "id": "banana", "name": "Banana", "zIndex": 3, "d": "M60 55 Q 80 50 85 70 Q 70 80 60 55", "defaultColor": "white", "isAnimated": true, "animationType": "wiggle" },
+      { "id": "orange", "name": "Orange", "zIndex": 4, "d": "M45 75 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0", "defaultColor": "white" }
+    ]
+  },
+  {
+    "id": "vehicles",
+    "title": "Choo Choo Train",
+    "description": "All aboard!",
+    "thumbnailColor": "bg-blue-50",
+    "viewBox": "0 0 100 100",
+    "category": "early_learners",
+    "objects": [
+      { "id": "bg", "name": "Sky", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#eff6ff" },
+      { "id": "track", "name": "Track", "zIndex": 1, "d": "M0 80 H 100 V 85 H 0 Z", "defaultColor": "white" },
+      { "id": "engine", "name": "Engine", "zIndex": 2, "d": "M60 75 V 45 H 90 V 75 Z", "defaultColor": "white" },
+      { "id": "cabin", "name": "Cabin", "zIndex": 2, "d": "M30 75 V 55 H 60 V 75 Z", "defaultColor": "white" },
+      { "id": "wheel1", "name": "Wheel", "zIndex": 3, "d": "M35 80 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0", "defaultColor": "white", "isAnimated": true, "animationType": "spin" },
+      { "id": "wheel2", "name": "Wheel", "zIndex": 3, "d": "M50 80 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0", "defaultColor": "white", "isAnimated": true, "animationType": "spin" },
+      { "id": "wheel3", "name": "Wheel", "zIndex": 3, "d": "M70 80 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0", "defaultColor": "white", "isAnimated": true, "animationType": "spin" },
+      { "id": "smoke", "name": "Smoke", "zIndex": 1, "d": "M80 45 Q 85 30 95 20", "defaultColor": "white", "isAnimated": true, "animationType": "float" }
+    ]
+  },
+  {
+    "id": "beach",
+    "title": "Beach Day",
+    "description": "Sandcastles and sun.",
+    "thumbnailColor": "bg-yellow-50",
+    "viewBox": "0 0 100 100",
+    "category": "early_learners",
+    "objects": [
+      { "id": "sky", "name": "Sky", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#fffbeb" },
+      { "id": "sea", "name": "Sea", "zIndex": 1, "d": "M0 60 Q 50 50 100 60 V 100 H 0 Z", "defaultColor": "white" },
+      { "id": "sand", "name": "Sand", "zIndex": 2, "d": "M0 80 Q 50 70 100 80 V 100 H 0 Z", "defaultColor": "white" },
+      { "id": "castle", "name": "Castle", "zIndex": 3, "d": "M30 90 V 70 H 50 V 90 Z", "defaultColor": "white" },
+      { "id": "flag", "name": "Flag", "zIndex": 4, "d": "M40 70 V 60 H 50 L 40 65", "defaultColor": "white", "isAnimated": true, "animationType": "wiggle" },
+      { "id": "ball", "name": "Ball", "zIndex": 4, "d": "M70 85 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0", "defaultColor": "white", "isAnimated": true, "animationType": "bounce" }
+    ]
+  },
+  {
+    "id": "birthday",
+    "title": "Happy Birthday",
+    "description": "Cake and balloons.",
+    "thumbnailColor": "bg-pink-50",
+    "viewBox": "0 0 100 100",
+    "category": "early_learners",
+    "objects": [
+      { "id": "bg", "name": "Wall", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#fdf2f8" },
+      { "id": "cake_base", "name": "Cake", "zIndex": 2, "d": "M30 80 V 60 H 70 V 80 Z", "defaultColor": "white" },
+      { "id": "cake_top", "name": "Icing", "zIndex": 3, "d": "M30 60 Q 50 50 70 60 Z", "defaultColor": "white" },
+      { "id": "candle", "name": "Candle", "zIndex": 1, "d": "M45 60 V 40 H 55 V 60 Z", "defaultColor": "white" },
+      { "id": "flame", "name": "Flame", "zIndex": 2, "d": "M50 40 Q 55 30 50 25 Q 45 30 50 40", "defaultColor": "white", "isAnimated": true, "animationType": "pulse" },
+      { "id": "balloon", "name": "Balloon", "zIndex": 4, "d": "M70 40 a15 20 0 1 0 30 0 a15 20 0 1 0 -30 0", "defaultColor": "white", "isAnimated": true, "animationType": "float" },
+      { "id": "string", "name": "String", "zIndex": 3, "d": "M85 60 V 90", "defaultColor": "white" }
+    ]
+  },
+  {
+    "id": "zoo",
+    "title": "Zoo Friends",
+    "description": "Tall giraffe and friends.",
+    "thumbnailColor": "bg-yellow-100",
+    "viewBox": "0 0 100 100",
+    "category": "early_learners",
+    "objects": [
+      { "id": "bg", "name": "Sky", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#fef9c3" },
+      { "id": "bush", "name": "Bush", "zIndex": 1, "d": "M0 90 Q 20 80 40 90 T 100 90 V 100 H 0 Z", "defaultColor": "white" },
+      { "id": "neck", "name": "Neck", "zIndex": 2, "d": "M70 90 V 40 H 80 V 90 Z", "defaultColor": "white" },
+      { "id": "head", "name": "Head", "zIndex": 3, "d": "M70 40 H 90 V 25 H 70 Z", "defaultColor": "white", "isAnimated": true, "animationType": "wiggle" },
+      { "id": "eye", "name": "Eye", "zIndex": 4, "d": "M80 30 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0", "defaultColor": "white" },
+      { "id": "ears", "name": "Ears", "zIndex": 4, "d": "M75 25 L 72 15 M 85 25 L 88 15", "defaultColor": "white" },
+      { "id": "sun", "name": "Sun", "zIndex": 1, "d": "M10 10 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0", "defaultColor": "white", "isAnimated": true, "animationType": "spin" }
+    ]
+  },
+  {
+    "id": "bugs",
+    "title": "Garden Bugs",
+    "description": "Tiny crawly friends.",
+    "thumbnailColor": "bg-green-50",
+    "viewBox": "0 0 100 100",
+    "category": "early_learners",
+    "objects": [
+      { "id": "bg", "name": "Leaf", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#f0fdf4" },
+      { "id": "wing_l", "name": "Wing", "zIndex": 2, "d": "M30 40 Q 10 20 10 50 Q 10 80 50 60", "defaultColor": "white", "isAnimated": true, "animationType": "wiggle" },
+      { "id": "wing_r", "name": "Wing", "zIndex": 2, "d": "M70 40 Q 90 20 90 50 Q 90 80 50 60", "defaultColor": "white", "isAnimated": true, "animationType": "wiggle" },
+      { "id": "body", "name": "Body", "zIndex": 3, "d": "M45 30 H 55 V 70 H 45 Z", "defaultColor": "white" },
+      { "id": "ladybug", "name": "Ladybug", "zIndex": 4, "d": "M20 80 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0", "defaultColor": "white", "isAnimated": true, "animationType": "spin" },
+      { "id": "spot", "name": "Spot", "zIndex": 5, "d": "M25 80 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0", "defaultColor": "white" }
+    ]
+  },
+  {
+    "id": "shapes",
+    "title": "Shape World",
+    "description": "Learning shapes.",
+    "thumbnailColor": "bg-purple-50",
+    "viewBox": "0 0 100 100",
+    "category": "early_learners",
+    "objects": [
+      { "id": "bg", "name": "Background", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#faf5ff" },
+      { "id": "square", "name": "Square", "zIndex": 1, "d": "M10 10 H 40 V 40 H 10 Z", "defaultColor": "white", "isAnimated": true, "animationType": "bounce" },
+      { "id": "circle", "name": "Circle", "zIndex": 1, "d": "M70 70 a15 15 0 1 0 30 0 a15 15 0 1 0 -30 0", "defaultColor": "white", "isAnimated": true, "animationType": "spin" },
+      { "id": "triangle", "name": "Triangle", "zIndex": 1, "d": "M50 10 L 80 40 H 20 Z", "defaultColor": "white", "isAnimated": true, "animationType": "wiggle" },
+      { "id": "star", "name": "Star", "zIndex": 1, "d": "M25 70 L 30 85 L 15 85 L 20 70 L 25 55 L 30 70 Z", "defaultColor": "white", "isAnimated": true, "animationType": "pulse" }
+    ]
+  },
+  {
+    "id": "balloon_party",
+    "title": "Balloon Party",
+    "description": "Pop the balloons with color!",
+    "thumbnailColor": "bg-sky-100",
+    "viewBox": "0 0 100 100",
+    "category": "early_learners",
+    "objects": [
+        { "id": "sky", "name": "Sky", "zIndex": 0, "d": "M0 0 H100 V100 H0 Z", "defaultColor": "#e0f2fe" },
+        { "id": "ground", "name": "Ground", "zIndex": 1, "d": "M0 80 Q 50 70 100 80 V 100 H 0 Z", "defaultColor": "white" },
+        
+        { "id": "string_l", "name": "String", "zIndex": 1, "d": "M30 60 Q 30 75 32 80", "defaultColor": "white" },
+        { "id": "string_c", "name": "String", "zIndex": 1, "d": "M50 50 Q 50 70 48 80", "defaultColor": "white" },
+        { "id": "string_r", "name": "String", "zIndex": 1, "d": "M70 55 Q 70 70 72 80", "defaultColor": "white" },
+
+        { "id": "balloon_l", "name": "Balloon", "zIndex": 2, "d": "M30 60 c-12 0 -12 -20 0 -25 c 12 5 12 25 0 25 l-2 2 l4 0 z", "defaultColor": "white", "isAnimated": true, "animationType": "float" },
+        { "id": "balloon_c", "name": "Balloon", "zIndex": 3, "d": "M50 50 c-15 0 -15 -25 0 -30 c 15 5 15 30 0 30 l-3 3 l6 0 z", "defaultColor": "white", "isAnimated": true, "animationType": "bounce" },
+        { "id": "balloon_r", "name": "Balloon", "zIndex": 2, "d": "M70 55 c-11 0 -11 -18 0 -23 c 11 5 11 23 0 23 l-2 2 l4 0 z", "defaultColor": "white", "isAnimated": true, "animationType": "float" },
+
+        { "id": "sun", "name": "Sun", "zIndex": 1, "d": "M85 15 m-8 0 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0", "defaultColor": "white", "isAnimated": true, "animationType": "spin" },
+        { "id": "cloud", "name": "Cloud", "zIndex": 4, "d": "M15 25 a5 5 0 0 1 5 -5 a 6 6 0 0 1 6 2 a 5 5 0 0 1 8 0 a 5 5 0 0 1 3 6 h -22 z", "defaultColor": "white", "isAnimated": true, "animationType": "float" },
+        { "id": "bird", "name": "Bird", "zIndex": 3, "d": "M60 20 Q 65 15 70 20 L 70 22 Q 65 18 60 22 Z", "defaultColor": "white", "isAnimated": true, "animationType": "wiggle" }
+    ]
+  }
+]

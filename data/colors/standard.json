@@ -1,0 +1,27 @@
+
+[
+  { "id": "red", "hex": "#ef4444", "name": "Red" },
+  { "id": "rose", "hex": "#f43f5e", "name": "Rose" },
+  { "id": "hot_pink", "hex": "#ec4899", "name": "Hot Pink" },
+  { "id": "pink", "hex": "#f9a8d4", "name": "Pink" },
+  { "id": "orange", "hex": "#f97316", "name": "Orange" },
+  { "id": "amber", "hex": "#f59e0b", "name": "Amber" },
+  { "id": "yellow", "hex": "#eab308", "name": "Yellow" },
+  { "id": "cream", "hex": "#fef08a", "name": "Cream" },
+  { "id": "lime", "hex": "#84cc16", "name": "Lime" },
+  { "id": "green", "hex": "#22c55e", "name": "Green" },
+  { "id": "emerald", "hex": "#10b981", "name": "Emerald" },
+  { "id": "mint", "hex": "#6ee7b7", "name": "Mint" },
+  { "id": "teal", "hex": "#14b8a6", "name": "Teal" },
+  { "id": "cyan", "hex": "#06b6d4", "name": "Cyan" },
+  { "id": "sky", "hex": "#0ea5e9", "name": "Sky Blue" },
+  { "id": "blue", "hex": "#3b82f6", "name": "Blue" },
+  { "id": "violet", "hex": "#8b5cf6", "name": "Violet" },
+  { "id": "purple", "hex": "#a855f7", "name": "Purple" },
+  { "id": "lavender", "hex": "#d8b4fe", "name": "Lavender" },
+  { "id": "brown", "hex": "#78350f", "name": "Brown" },
+  { "id": "tan", "hex": "#d6c0b0", "name": "Tan" },
+  { "id": "grey", "hex": "#6b7280", "name": "Grey" },
+  { "id": "black", "hex": "#000000", "name": "Black" },
+  { "id": "white", "hex": "#ffffff", "name": "White" }
+]
